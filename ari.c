@@ -12,7 +12,7 @@ for(int i=0;s[i]!= '\0'; i++){
     if(isalnum(s[i]))
         characters++;
     else{
-        if((s[i]>=65 && s[i]<=90) || (s[i]>=97 && s[i]<=122))
+        if((s[i]>=67 && s[i]<=90) || (s[i]>=97 && s[i]<=122))
             characters++;
     }
 }
