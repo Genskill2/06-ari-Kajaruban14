@@ -31,7 +31,7 @@ for(int i=0;s[i]!= '\0'; i++){
 
 float score;
 
-score = (4.00*characters/words) + (0.5* words/sentences) - 21.43;
+score = (4.71*characters/words) + (0.5* words/sentences) - 21.43;
 
 int x = ceil(score);
 
